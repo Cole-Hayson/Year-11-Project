@@ -39,7 +39,7 @@ def compliment():
                     print(random.choice(compliment_list))
                 elif more_compliments.lower() == "no":
                     # if user answers no ends program
-                    print("\nOkay.")
+                    print("\nOkay, Goodbye! :)")
                     print("\nEnding Program...")
                     break
                 else:  # more_compliments.lower() != "yes" or more_compliments.lower() != "no":
@@ -54,7 +54,6 @@ def compliment():
         if better_day.lower() != "yes" or "no":
             # tells user to input the correct input
             print('\nPlease answer "yes" or "no"')
-            better_day = input("\nWould you like a compliment to make your day a little better?\n")
 
 
 # code
@@ -67,10 +66,11 @@ while True:
         user_name = input("\nHello! What is your name?")
         print(user_name + "! That's a nice name :)")
         break
-    if start.upper() != "S":
+    else:
         # asks the question again if user enters wrong input.
         print('That input is invalid')
         start = input('To start the program please type "S"')
+
 # put functions into code
 users_day()
 compliment()
