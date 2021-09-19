@@ -22,10 +22,10 @@ def users_day():
 
 def compliment():
     # list of random compliments program will select from
-    compliment_list = ["You look good today!", "I like your style", "That color is perfect on you",
-                       "You have the best laugh!", "You are making a difference",
-                       "You're the best!", "You're a great listener!",
-                       "You're a great example to others!"]
+    compliment_list = ["You look good today!", "I like your style.", "That colour is perfect on you.",
+                       "You have the best laugh!", "You are making a difference.",
+                       "You're the best!", "You're a great listener!", "Your positivity is infectious.",
+                       "You're a great example to others!", "You're an incredible friend!"]
     while True:
         # asking user if they would like a compliment
         better_day = input("\nWould you like a random compliment to make your day a little better?\n")
